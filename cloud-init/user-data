@@ -1,0 +1,19 @@
+#cloud-config
+autoinstall:
+  version: 1
+  updates: security
+
+  apt:
+    disable_suites: [security]
+
+  timezone: Africa/Johannesburg
+
+
+  identity:
+    hostname: ubuntu-server
+#   password is ubuntu
+    password: "$6$exDY1mhS4KUYCE/2$zmn9ToZwTKLhCw.b4/b.ZRTIZM30JZ4QrOQ2aOXJ8yk96                                                                                  xpcCof0kxKwuX1kqLG/ygbJ1f8wxED22bTL4F46P0"
+    username: ubuntu
+
+#  default behaviour
+  shutdown: reboot
