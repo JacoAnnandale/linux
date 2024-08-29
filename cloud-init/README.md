@@ -14,3 +14,5 @@ after linux add between kernel and **---**
 ```autoinstall "ds=nocloud-net;s=http://<ip-address>:<port>/"```
 
 Will install all with the cloud-init script
+
+
