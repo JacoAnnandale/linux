@@ -1,8 +1,10 @@
 How to work with cloudimages in Proxmox
 ----------------------------------------
 
-ref :  https://github.com/JamesTurland/JimsGarage/tree/main/Kubernetes/Cloud-Init
-    :  https://www.youtube.com/watch?v=Kv6-_--y5CM
+
+References:
+https://github.com/JamesTurland/JimsGarage/tree/main/Kubernetes/Cloud-Init
+https://www.youtube.com/watch?v=Kv6-_--y5CM
 
 1. Download the ISO using the GUI (tested on https://cloud-images.ubuntu.com/lunar/current/lunar-server-cloudimg-amd64-disk-kvm.img)
 1. Create the VM via CLI
