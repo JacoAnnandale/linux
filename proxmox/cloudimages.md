@@ -17,11 +17,17 @@ qm set 5000 --ide2 <YOUR STORAGE HERE>:cloudinit
 qm set 5000 --boot c --bootdisk scsi0
 qm set 5000 --serial0 socket --vga serial0
 ```
-3. Expand the VM disk size to a suitable size (suggested 10 GB)
+
+3. qm set 5000 --ciuser jaco
+
+4.  qm set 5000 --ipconfig0 ip=dhcp
+
+
+5. Expand the VM disk size to a suitable size (suggested 10 GB)
 ```bash
 qm disk resize 5000 scsi0 10G
 ```
-4. Create the Cloud-Init template 
-5. Deploy new VMs by cloning the template (full clone)
+5. Create the Cloud-Init template 
+6. Deploy new VMs by cloning the template (full clone)
 
 
