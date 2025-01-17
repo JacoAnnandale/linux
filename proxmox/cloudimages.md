@@ -2,7 +2,7 @@ How to work with cloudimages in Proxmox
 ----------------------------------------
 
 
-References:
+References
 https://github.com/JamesTurland/JimsGarage/tree/main/Kubernetes/Cloud-Init
 https://www.youtube.com/watch?v=Kv6-_--y5CM
 
